@@ -398,6 +398,12 @@ map <Leader>sp :SplitVifm<CR>
 map <Leader>dv :DiffVifm<CR>
 map <Leader>tv :TabVifm<CR>
 
+" =========---------  BOXES CONFIG  --------=========
+vmap ,mc !boxes -d c-cmt<CR>
+nmap ,mc !!boxes -d c-cmt<CR>
+vmap ,xc !boxes -d c-cmt -r<CR>
+nmap ,xc !!boxes -d c-cmt -r<CR>
+
 " =========---------  VIM DIFF SETTINGS  --------=========
 if &diff
     set cursorline
